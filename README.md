@@ -18,7 +18,7 @@ A lightweight, zero-dependency Vue 3 expression editor component. Based on `cont
 ## Install
 
 ```bash
-npm install vue-expr-editor
+npm install vue-expr-editor 
 ```
 
 ## Quick Start
