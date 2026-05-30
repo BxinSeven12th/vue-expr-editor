@@ -1,5 +1,7 @@
 # vue-expr-editor
 
+**English** | [中文](./README.zh-CN.md)
+
 A lightweight, zero-dependency Vue 3 expression editor component. Based on `contenteditable`, it supports inserting immutable parameter tags alongside free-text input, expression parsing and round-trip rendering.
 
 ## Features
