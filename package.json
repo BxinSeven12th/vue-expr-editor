@@ -1,0 +1,53 @@
+{
+  "name": "vue-expr-editor",
+  "version": "0.1.0",
+  "description": "A Vue 3 expression editor component with contenteditable, parameter tags, and expression parsing",
+  "keywords": [
+    "vue",
+    "vue3",
+    "expression",
+    "editor",
+    "contenteditable",
+    "parameter-tag"
+  ],
+  "license": "MIT",
+  "author": "bxinseven12th",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BxinSeven12th/vue-expr-editor.git"
+  },
+  "homepage": "https://github.com/BxinSeven12th/vue-expr-editor#readme",
+  "main": "./dist/vue-expr-editor.umd.cjs",
+  "module": "./dist/vue-expr-editor.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-expr-editor.js",
+      "require": "./dist/vue-expr-editor.umd.cjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vue-tsc --emitDeclarationOnly",
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vue": "^3.5.13",
+    "vue-tsc": "^2.2.8"
+  }
+}
