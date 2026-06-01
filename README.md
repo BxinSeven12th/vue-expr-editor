@@ -25,7 +25,6 @@ npm install vue-expr-editor
 <script setup lang="ts">
 import { ref } from 'vue'
 import { ExprEditor } from 'vue-expr-editor'
-import 'vue-expr-editor/dist/vue-expr-editor.css'
 
 const editor = ref<InstanceType<typeof ExprEditor>>()
 
@@ -57,6 +56,8 @@ const onGetContent = () => {
 ```
 
 ## Demo
+
+![vue-expr-editor demo](demo.gif)
 
 ```bash
 git clone https://github.com/<your-username>/vue-expr-editor.git
@@ -134,7 +135,6 @@ npm run build
 Outputs to `dist/`:
 - `vue-expr-editor.js` (ESM)
 - `vue-expr-editor.umd.cjs` (UMD)
-- `vue-expr-editor.css`
 - `*.d.ts` (type declarations)
 
 ## License
