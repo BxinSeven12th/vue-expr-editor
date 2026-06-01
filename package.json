@@ -22,10 +22,10 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/vue-expr-editor.js",
-      "require": "./dist/vue-expr-editor.umd.cjs",
-      "types": "./dist/index.d.ts"
-    },
+      "require": "./dist/vue-expr-editor.umd.cjs"
+    }
   },
   "files": [
     "dist"
