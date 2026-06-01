@@ -1,6 +1,6 @@
 {
   "name": "vue-expr-editor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Vue 3 expression editor component with contenteditable, parameter tags, and expression parsing",
   "keywords": [
     "vue",
