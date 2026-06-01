@@ -26,7 +26,7 @@
       "require": "./dist/vue-expr-editor.umd.cjs",
       "types": "./dist/index.d.ts"
     },
-    "./dist/style.css": "./dist/style.css"
+    "./dist/vue-expr-editor.css": "./dist/vue-expr-editor.css"
   },
   "files": [
     "dist"
@@ -36,7 +36,7 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "vite build && vue-tsc --emitDeclarationOnly",
+    "build": "vite build && vue-tsc",
     "preview": "vite preview",
     "prepublishOnly": "npm run build"
   },
