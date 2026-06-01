@@ -27,7 +27,7 @@ npm install vue-expr-editor
 <script setup lang="ts">
 import { ref } from 'vue'
 import { ExprEditor } from 'vue-expr-editor'
-import 'vue-expr-editor/dist/style.css'
+import 'vue-expr-editor/dist/vue-expr-editor.css'
 
 const editor = ref<InstanceType<typeof ExprEditor>>()
 
@@ -136,7 +136,7 @@ npm run build
 Outputs to `dist/`:
 - `vue-expr-editor.js` (ESM)
 - `vue-expr-editor.umd.cjs` (UMD)
-- `style.css`
+- `vue-expr-editor.css`
 - `*.d.ts` (type declarations)
 
 ## License

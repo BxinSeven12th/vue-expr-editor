@@ -1,3 +1,4 @@
+import './styles/index.css'
 import ExprEditor from './components/ExprEditor.vue'
 
 export { ExprEditor }

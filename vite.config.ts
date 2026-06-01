@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => ({
           entry: './src/index.ts',
           name: 'VueExprEditor',
           formats: ['es', 'umd'] as const,
-          fileName: 'vue-expr-editor',
+          fileName: (format) => format === 'es' ? 'vue-expr-editor.js' : 'vue-expr-editor.umd.cjs',
         },
         rollupOptions: {
           external: ['vue'],
